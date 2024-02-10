@@ -12,7 +12,8 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"variableName": ""
+					"variableName": "test",
+					"value": "1234"
 				}
 			}
 		],

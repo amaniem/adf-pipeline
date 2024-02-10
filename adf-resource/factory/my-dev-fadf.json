@@ -1,0 +1,9 @@
+{
+	"name": "my-dev-fadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "39ea3541-186b-4ca3-8322-750a040cc43d",
+		"tenantId": "cab8eec1-a046-4d1f-b614-62c81b18b7da"
+	}
+}

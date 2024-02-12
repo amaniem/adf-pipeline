@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"functionName": "my-az-function",
+					"functionName": "http_trigger",
 					"method": "POST",
 					"body": {
 						"name": "Aman"

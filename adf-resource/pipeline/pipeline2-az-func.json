@@ -1,0 +1,32 @@
+{
+	"name": "pipeline2-az-func",
+	"properties": {
+		"activities": [
+			{
+				"name": "Azure Function1",
+				"type": "AzureFunctionActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"functionName": "my-az-function",
+					"method": "POST",
+					"body": {
+						"name": "Aman"
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureFunction1",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}

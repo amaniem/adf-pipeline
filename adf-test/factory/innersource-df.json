@@ -1,0 +1,9 @@
+{
+	"name": "innersource-df",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d13050fe-b2ec-4e52-a108-05d6353b0765",
+		"tenantId": "36da45f1-dd2c-4d1f-af13-5abe46b99921"
+	}
+}
